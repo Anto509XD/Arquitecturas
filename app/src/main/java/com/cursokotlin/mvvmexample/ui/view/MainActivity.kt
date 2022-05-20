@@ -10,6 +10,8 @@ import com.cursokotlin.mvvmexample.ui.viewmodel.QuoteViewModel
 
 class MainActivity : AppCompatActivity() {
 
+    //main
+
     private lateinit var binding: ActivityMainBinding
 
     private val quoteViewModel: QuoteViewModel by viewModels()
